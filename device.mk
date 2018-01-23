@@ -419,7 +419,6 @@ PRODUCT_PACKAGES += \
     libwpa_client \
     wificond \
     hostapd \
-    readfem \
     readmac \
     wpa_supplicant \
     wpa_supplicant.conf
