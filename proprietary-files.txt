@@ -47,6 +47,23 @@ vendor/lib/rfsa/adsp/libvpp_frc.so|536a323ebc3eda0079746d9371b32b7b9d0467ec
 vendor/lib/rfsa/adsp/misound_res.bin
 vendor/lib/rfsa/adsp/us-syncproximity.so
 
+# Audio ACDB
+etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb:vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
+etc/acdbdata/Forte/Forte_General_cal.acdb:vendor/etc/acdbdata/Forte/Forte_General_cal.acdb
+etc/acdbdata/Forte/Forte_Global_cal.acdb:vendor/etc/acdbdata/Forte/Forte_Global_cal.acdb
+etc/acdbdata/Forte/Forte_Handset_cal.acdb:vendor/etc/acdbdata/Forte/Forte_Handset_cal.acdb
+etc/acdbdata/Forte/Forte_Hdmi_cal.acdb:vendor/etc/acdbdata/Forte/Forte_Hdmi_cal.acdb
+etc/acdbdata/Forte/Forte_Headset_cal.acdb:vendor/etc/acdbdata/Forte/Forte_Headset_cal.acdb
+etc/acdbdata/Forte/Forte_Speaker_cal.acdb:vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb
+etc/acdbdata/adsp_avs_config.acdb:vendor/etc/acdbdata/adsp_avs_config.acdb
+
+# Audio amplifier calibration sound
+etc/silence_short.wav
+
+# Audio amplifier firmware
+etc/firmware/tfa98xx.cnt:vendor/firmware/tfa98xx.cnt
+etc/firmware/tfa9891.cnt:vendor/firmware/tfa9891.cnt
+
 # Audio libraries - from sagit - OPR1.170623.027
 etc/permissions/audiosphere.xml|3c6d8f14bd99e52a424282fd5d0a5b9b06485dea
 framework/audiosphere.jar|e12a3ee72672b82dffc9a5675d0c30ddf0328807
@@ -176,6 +193,125 @@ vendor/lib/libtm_interface.so
 vendor/lib/libtrueportrait.so
 vendor/lib/libubifocus.so
 
+# Camera actuators
+vendor/lib/libactuator_ak7348.so
+vendor/lib/libactuator_ak7371.so
+
+# Camera chromatix
+vendor/lib/libchromatix_imx298_liteon_4K_preview.so
+vendor/lib/libchromatix_imx298_liteon_4K_video.so
+vendor/lib/libchromatix_imx298_liteon_common.so
+vendor/lib/libchromatix_imx298_liteon_cpp_hfr_120.so
+vendor/lib/libchromatix_imx298_liteon_cpp_hfr_60.so
+vendor/lib/libchromatix_imx298_liteon_cpp_hfr_90.so
+vendor/lib/libchromatix_imx298_liteon_cpp_liveshot.so
+vendor/lib/libchromatix_imx298_liteon_cpp_preview.so
+vendor/lib/libchromatix_imx298_liteon_cpp_snapshot.so
+vendor/lib/libchromatix_imx298_liteon_cpp_snapshot_hdr.so
+vendor/lib/libchromatix_imx298_liteon_cpp_video.so
+vendor/lib/libchromatix_imx298_liteon_cpp_video_hdr.so
+vendor/lib/libchromatix_imx298_liteon_default_preview.so
+vendor/lib/libchromatix_imx298_liteon_default_video.so
+vendor/lib/libchromatix_imx298_liteon_hdr_snapshot_3a.so
+vendor/lib/libchromatix_imx298_liteon_hdr_video_3a.so
+vendor/lib/libchromatix_imx298_liteon_hfr_120.so
+vendor/lib/libchromatix_imx298_liteon_hfr_120_3a.so
+vendor/lib/libchromatix_imx298_liteon_hfr_60.so
+vendor/lib/libchromatix_imx298_liteon_hfr_60_3a.so
+vendor/lib/libchromatix_imx298_liteon_hfr_90.so
+vendor/lib/libchromatix_imx298_liteon_hfr_90_3a.so
+vendor/lib/libchromatix_imx298_liteon_liveshot.so
+vendor/lib/libchromatix_imx298_liteon_postproc.so
+vendor/lib/libchromatix_imx298_liteon_preview.so
+vendor/lib/libchromatix_imx298_liteon_snapshot.so
+vendor/lib/libchromatix_imx298_liteon_snapshot_hdr.so
+vendor/lib/libchromatix_imx298_liteon_video_hdr.so
+vendor/lib/libchromatix_imx298_liteon_zsl_preview.so
+vendor/lib/libchromatix_imx298_liteon_zsl_video.so
+vendor/lib/libchromatix_imx298_semco_4K_preview.so
+vendor/lib/libchromatix_imx298_semco_4K_video.so
+vendor/lib/libchromatix_imx298_semco_common.so
+vendor/lib/libchromatix_imx298_semco_cpp_hfr_120.so
+vendor/lib/libchromatix_imx298_semco_cpp_hfr_60.so
+vendor/lib/libchromatix_imx298_semco_cpp_hfr_90.so
+vendor/lib/libchromatix_imx298_semco_cpp_liveshot.so
+vendor/lib/libchromatix_imx298_semco_cpp_preview.so
+vendor/lib/libchromatix_imx298_semco_cpp_snapshot.so
+vendor/lib/libchromatix_imx298_semco_cpp_snapshot_hdr.so
+vendor/lib/libchromatix_imx298_semco_cpp_video.so
+vendor/lib/libchromatix_imx298_semco_cpp_video_hdr.so
+vendor/lib/libchromatix_imx298_semco_default_preview.so
+vendor/lib/libchromatix_imx298_semco_default_video.so
+vendor/lib/libchromatix_imx298_semco_hdr_snapshot_3a.so
+vendor/lib/libchromatix_imx298_semco_hdr_video_3a.so
+vendor/lib/libchromatix_imx298_semco_hfr_120.so
+vendor/lib/libchromatix_imx298_semco_hfr_120_3a.so
+vendor/lib/libchromatix_imx298_semco_hfr_60.so
+vendor/lib/libchromatix_imx298_semco_hfr_60_3a.so
+vendor/lib/libchromatix_imx298_semco_hfr_90.so
+vendor/lib/libchromatix_imx298_semco_hfr_90_3a.so
+vendor/lib/libchromatix_imx298_semco_liveshot.so
+vendor/lib/libchromatix_imx298_semco_postproc.so
+vendor/lib/libchromatix_imx298_semco_preview.so
+vendor/lib/libchromatix_imx298_semco_snapshot.so
+vendor/lib/libchromatix_imx298_semco_snapshot_hdr.so
+vendor/lib/libchromatix_imx298_semco_video_hdr.so
+vendor/lib/libchromatix_imx298_semco_zsl_preview.so
+vendor/lib/libchromatix_imx298_semco_zsl_video.so
+vendor/lib/libchromatix_ov4688_common.so
+vendor/lib/libchromatix_ov4688_cpp_hfr_120.so
+vendor/lib/libchromatix_ov4688_cpp_hfr_60.so
+vendor/lib/libchromatix_ov4688_cpp_hfr_90.so
+vendor/lib/libchromatix_ov4688_cpp_liveshot.so
+vendor/lib/libchromatix_ov4688_cpp_preview.so
+vendor/lib/libchromatix_ov4688_cpp_snapshot.so
+vendor/lib/libchromatix_ov4688_cpp_video.so
+vendor/lib/libchromatix_ov4688_default_video.so
+vendor/lib/libchromatix_ov4688_hfr_120.so
+vendor/lib/libchromatix_ov4688_hfr_120_ad5823.so
+vendor/lib/libchromatix_ov4688_hfr_60.so
+vendor/lib/libchromatix_ov4688_hfr_60_ad5823.so
+vendor/lib/libchromatix_ov4688_hfr_90.so
+vendor/lib/libchromatix_ov4688_hfr_90_ad5823.so
+vendor/lib/libchromatix_ov4688_liveshot.so
+vendor/lib/libchromatix_ov4688_postproc.so
+vendor/lib/libchromatix_ov4688_preview.so
+vendor/lib/libchromatix_ov4688_primax_common.so
+vendor/lib/libchromatix_ov4688_primax_cpp_hfr_120.so
+vendor/lib/libchromatix_ov4688_primax_cpp_hfr_60.so
+vendor/lib/libchromatix_ov4688_primax_cpp_hfr_90.so
+vendor/lib/libchromatix_ov4688_primax_cpp_liveshot.so
+vendor/lib/libchromatix_ov4688_primax_cpp_preview.so
+vendor/lib/libchromatix_ov4688_primax_cpp_snapshot.so
+vendor/lib/libchromatix_ov4688_primax_cpp_video.so
+vendor/lib/libchromatix_ov4688_primax_default_video.so
+vendor/lib/libchromatix_ov4688_primax_hfr_120.so
+vendor/lib/libchromatix_ov4688_primax_hfr_120_ad5823.so
+vendor/lib/libchromatix_ov4688_primax_hfr_60.so
+vendor/lib/libchromatix_ov4688_primax_hfr_60_ad5823.so
+vendor/lib/libchromatix_ov4688_primax_hfr_90.so
+vendor/lib/libchromatix_ov4688_primax_hfr_90_ad5823.so
+vendor/lib/libchromatix_ov4688_primax_liveshot.so
+vendor/lib/libchromatix_ov4688_primax_postproc.so
+vendor/lib/libchromatix_ov4688_primax_preview.so
+vendor/lib/libchromatix_ov4688_primax_snapshot.so
+vendor/lib/libchromatix_ov4688_primax_zsl_preview_ad5823.so
+vendor/lib/libchromatix_ov4688_primax_zsl_video_ad5823.so
+vendor/lib/libchromatix_ov4688_snapshot.so
+vendor/lib/libchromatix_ov4688_zsl_preview_ad5823.so
+vendor/lib/libchromatix_ov4688_zsl_video_ad5823.so
+
+# Camera configs
+etc/camera/imx298_liteon_chromatix.xml
+etc/camera/imx298_semco_chromatix.xml
+etc/camera/msm8996_camera.xml|8685c76353e614b312589e848eb45d74e1c20685
+etc/camera/ov4688_chromatix.xml
+etc/camera/ov4688_primax_chromatix.xml
+
+# Camera eeproms
+vendor/lib/libmmcamera_ov4688_eeprom.so
+vendor/lib/libmmcamera_sony_imx298_eeprom.so
+
 # Camera firmware
 etc/firmware/cpp_firmware_v1_1_1.fw:vendor/firmware/cpp_firmware_v1_1_1.fw
 etc/firmware/cpp_firmware_v1_1_6.fw:vendor/firmware/cpp_firmware_v1_1_6.fw
@@ -188,7 +324,14 @@ etc/firmware/cpp_firmware_v1_5_2.fw:vendor/firmware/cpp_firmware_v1_5_2.fw
 etc/firmware/cpp_firmware_v1_6_0.fw:vendor/firmware/cpp_firmware_v1_6_0.fw
 etc/firmware/cpp_firmware_v1_8_0.fw:vendor/firmware/cpp_firmware_v1_8_0.fw
 
+# Camera ois
+vendor/lib/libois_lc898122.so
+
 # Camera sensors
+vendor/lib/libSonyIMX298PdafLibrary.so
+vendor/lib/libmmcamera_imx298.so
+vendor/lib/libmmcamera_imx298_liteon.so
+vendor/lib/libmmcamera_imx298_semco.so
 vendor/lib/libmmcamera_isp_abf47.so
 vendor/lib/libmmcamera_isp_aec_bg_stats47.so
 vendor/lib/libmmcamera_isp_bf_stats47.so
@@ -230,6 +373,8 @@ vendor/lib/libmmcamera_isp_scaler_viewfinder46.so
 vendor/lib/libmmcamera_isp_sce40.so
 vendor/lib/libmmcamera_isp_snr47.so
 vendor/lib/libmmcamera_isp_sub_module.so
+vendor/lib/libmmcamera_ov4688.so
+vendor/lib/libmmcamera_ov4688_primax.so
 
 # Charger
 bin/hvdcp_opti:vendor/bin/hvdcp_opti
@@ -286,6 +431,12 @@ vendor/lib64/libcneqmiutils.so|41bf6f87336faaee239a3047b1fdac3f742ebde9
 vendor/lib64/libwqe.so|1ee0763c75da97daf3ef50a34be34cdb6465683f
 vendor/lib64/libxml.so|28642c2ee9abf46130f5b44b3665b63b008d150d
 
+# Display calibration data
+etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml:vendor/etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml
+etc/qdcm_calib_data_jdi_j1_fhd_cmd_incell_dsi_panel.xml:vendor/etc/qdcm_calib_data_jdi_j1_fhd_cmd_incell_dsi_panel.xml
+etc/qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml:vendor/etc/qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml
+etc/qdcm_calib_data_sharp_fhd_cmd_incell_dsi_panel.xml:vendor/etc/qdcm_calib_data_sharp_fhd_cmd_incell_dsi_panel.xml
+
 # DPM - from tissot - OPR1.170623.026
 vendor/bin/dpmQmiMgr|2d2c8f1bc822874ae1c335315110756521d0c5da
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0_vendor.so|0f23520fc925b8a5bb4cebc73c544cb2d012ce7e
@@ -309,6 +460,10 @@ vendor/lib64/libsecureui.so|96e8730968a044ecce63d478be9f0ce07c97c746
 vendor/lib64/libsecureui_svcsock.so|b18eaba3019428b6b2d92a33cd166924b20eca2d
 vendor/lib64/libssd.so|2a07064578f0b8dde52d755b44227f354af15c77
 vendor/lib/libQSEEComAPI.so|7062cdfb83a986d44190d6fd9762da43d508e10a
+
+# Fingerprint
+lib64/hw/fingerprint.fpc.so
+lib/hw/fingerprint.fpc.so
 
 # Gatekeeper - from op3 - OPR6.170623.013
 vendor/lib64/hw/gatekeeper.msm8996.so|285d7f197ee11a5eac1b1e333f7dfe8684087859
@@ -434,6 +589,11 @@ vendor/lib64/hw/vulkan.msm8996.so|7531d20d0ef872e704ce4949e52ff2a6857c72d8
 etc/firmware/a530_gpmu.fw2:vendor/firmware/a530_gpmu.fw2
 etc/firmware/a530_pfp.fw:vendor/firmware/a530_pfp.fw
 etc/firmware/a530_pm4.fw:vendor/firmware/a530_pm4.fw
+etc/firmware/a530_zap.b00:vendor/firmware/a530_zap.b00
+etc/firmware/a530_zap.b01:vendor/firmware/a530_zap.b01
+etc/firmware/a530_zap.b02:vendor/firmware/a530_zap.b02
+etc/firmware/a530_zap.elf:vendor/firmware/a530_zap.elf
+etc/firmware/a530_zap.mdt:vendor/firmware/a530_zap.mdt
 etc/firmware/a530v1_pfp.fw:vendor/firmware/a530v1_pfp.fw
 etc/firmware/a530v1_pm4.fw:vendor/firmware/a530v1_pm4.fw
 etc/firmware/a530v2_seq.fw2:vendor/firmware/a530v2_seq.fw2
@@ -534,6 +694,9 @@ vendor/lib64/libOmxWmaDec.so|008e871ac07dc66a0f50e12ec9efe93e408de751
 vendor/lib64/libmm-color-convertor.so|2efb05d595c2d55457d88897562115e340631fe6
 vendor/lib64/libvpphvx.so|1a83a5b32b4f65725a0d4485b402356dfbcd859c
 vendor/lib64/libvpplibrary.so|733e8aa44490239a8b038eaa862cd4f1bdbe259e
+
+# NFC firmware
+vendor/firmware/libpn548ad_fw.so
 
 # Perf - from op3 - OPR6.170623.013
 lib/vendor.qti.hardware.iop@1.0.so|4b10cacd0488a44922a4d81e67054e9754907b19
@@ -695,6 +858,8 @@ vendor/radio/qcril_database/qcril.db|8405d20c8e1184c79eba1c4f19ecfb92d7529bdf
 
 # Sensors
 bin/sensors.qcom:vendor/bin/sensors.qcom
+etc/sensors/hals.conf:vendor/etc/sensors/hals.conf
+etc/sensors/sensor_def_qcomdev.conf
 vendor/lib64/hw/activity_recognition.msm8996.so
 vendor/lib64/libsensor1.so
 vendor/lib64/libsensor_reg.so
