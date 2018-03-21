@@ -58,7 +58,7 @@ etc/acdbdata/Forte/Forte_Speaker_cal.acdb:vendor/etc/acdbdata/Forte/Forte_Speake
 etc/acdbdata/adsp_avs_config.acdb:vendor/etc/acdbdata/adsp_avs_config.acdb
 
 # Audio amplifier calibration sound
-etc/silence_short.wav
+etc/silence_short.wav:vendor/etc/silence_short.wav
 
 # Audio amplifier firmware
 etc/firmware/tfa98xx.cnt:vendor/firmware/tfa98xx.cnt
@@ -290,7 +290,7 @@ vendor/lib/libchromatix_ov4688_zsl_video_ad5823.so
 # Camera configs
 etc/camera/imx298_liteon_chromatix.xml
 etc/camera/imx298_semco_chromatix.xml
-etc/camera/msm8996_camera.xml|8685c76353e614b312589e848eb45d74e1c20685
+etc/camera/msm8996_camera.xml
 etc/camera/ov4688_chromatix.xml
 etc/camera/ov4688_primax_chromatix.xml
 
@@ -418,9 +418,9 @@ vendor/lib64/libwqe.so|1ee0763c75da97daf3ef50a34be34cdb6465683f
 vendor/lib64/libxml.so|28642c2ee9abf46130f5b44b3665b63b008d150d
 
 # Display calibration data
-etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml:vendor/etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml
-etc/qdcm_calib_data_jdi_j1_fhd_cmd_incell_dsi_panel.xml:vendor/etc/qdcm_calib_data_jdi_j1_fhd_cmd_incell_dsi_panel.xml
-etc/qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml:vendor/etc/qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml
+vendor/etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml|73c66f2479714619c394d4e19863521d622da6db
+vendor/etc/qdcm_calib_data_jdi_j1_fhd_cmd_incell_dsi_panel.xml|73c66f2479714619c394d4e19863521d622da6db
+vendor/etc/qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml|bb10ca71e619811a7e0b44f2bad03f7b8eb7e324
 etc/qdcm_calib_data_sharp_fhd_cmd_incell_dsi_panel.xml:vendor/etc/qdcm_calib_data_sharp_fhd_cmd_incell_dsi_panel.xml
 
 # DPM - from tissot - OPR1.170623.026
