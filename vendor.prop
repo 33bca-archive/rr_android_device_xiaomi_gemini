@@ -41,9 +41,7 @@ ro.btconfig.chip=QCA6164
 ro.btconfig.dev=/dev/ttyHS0
 
 # Camera
-media.camera.ts.monotonic=0
 persist.camera.gyro.disable=0
-persist.camera.HAL3.enabled=1
 persist.camera.imglib.fddsp=1
 
 # CNE
@@ -93,6 +91,7 @@ persist.dbg.vt_avail_ovr=1
 
 # Media
 vendor.vidc.enc.disable.pq=true
+vidc.enc.dcvs.extra-buff-count=2
 
 # NFC
 ro.nfc.port=I2C
@@ -100,6 +99,7 @@ persist.nfc.smartcard.config=SIM1,SIM2,eSE1
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
+ro.vendor.qti.sys.fw.bg_apps_limit=60
 
 # Radio
 DEVICE_PROVISIONED=1
@@ -134,6 +134,9 @@ persist.timed.enable=true
 
 # USB
 sys.usb.controller=6a00000.dwc3
+sys.usb.ffs.max_write=524288
+sys.usb.ffs.max_read=524288
+sys.usb.mtp.device_type=3
 
 # Wifi
 wifi.interface=wlan0
