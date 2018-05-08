@@ -161,6 +161,10 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     ueventd.qcom.rc
 
+# Camera
+PRODUCT_PACKAGES += \
+    Snap
+
 # ConfigPanel
 PRODUCT_PACKAGES += \
     ConfigPanel

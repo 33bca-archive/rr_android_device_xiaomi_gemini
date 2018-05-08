@@ -48,14 +48,14 @@ vendor/lib/rfsa/adsp/misound_res.bin
 vendor/lib/rfsa/adsp/us-syncproximity.so
 
 # Audio ACDB
-etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb:vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
-etc/acdbdata/Forte/Forte_General_cal.acdb:vendor/etc/acdbdata/Forte/Forte_General_cal.acdb
-etc/acdbdata/Forte/Forte_Global_cal.acdb:vendor/etc/acdbdata/Forte/Forte_Global_cal.acdb
-etc/acdbdata/Forte/Forte_Handset_cal.acdb:vendor/etc/acdbdata/Forte/Forte_Handset_cal.acdb
-etc/acdbdata/Forte/Forte_Hdmi_cal.acdb:vendor/etc/acdbdata/Forte/Forte_Hdmi_cal.acdb
-etc/acdbdata/Forte/Forte_Headset_cal.acdb:vendor/etc/acdbdata/Forte/Forte_Headset_cal.acdb
-etc/acdbdata/Forte/Forte_Speaker_cal.acdb:vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb
-etc/acdbdata/adsp_avs_config.acdb:vendor/etc/acdbdata/adsp_avs_config.acdb
+vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
+vendor/etc/acdbdata/Forte/Forte_General_cal.acdb
+vendor/etc/acdbdata/Forte/Forte_Global_cal.acdb
+vendor/etc/acdbdata/Forte/Forte_Handset_cal.acdb
+vendor/etc/acdbdata/Forte/Forte_Hdmi_cal.acdb
+vendor/etc/acdbdata/Forte/Forte_Headset_cal.acdb
+vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb
+vendor/etc/acdbdata/adsp_avs_config.acdb
 
 # Audio amplifier calibration sound
 etc/silence_short.wav:vendor/etc/silence_short.wav
@@ -448,8 +448,7 @@ vendor/lib64/libssd.so|2a07064578f0b8dde52d755b44227f354af15c77
 vendor/lib/libQSEEComAPI.so|7062cdfb83a986d44190d6fd9762da43d508e10a
 
 # Fingerprint
-lib64/hw/fingerprint.fpc.so
-lib/hw/fingerprint.fpc.so
+lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.so|15fa15959d44bdf3760a3009d6a8b61a7f9e8830
 
 # Gatekeeper - from op3 - OPR6.170623.013
 vendor/lib64/hw/gatekeeper.msm8996.so|285d7f197ee11a5eac1b1e333f7dfe8684087859
@@ -569,19 +568,19 @@ vendor/lib/hw/vulkan.msm8996.so|dcd44a4df3234649eb25d5e16dfc16ab4a4284f1
 vendor/lib64/hw/vulkan.msm8996.so|7531d20d0ef872e704ce4949e52ff2a6857c72d8
 
 # Graphics firmware
-etc/firmware/a530_gpmu.fw2:vendor/firmware/a530_gpmu.fw2
-etc/firmware/a530_pfp.fw:vendor/firmware/a530_pfp.fw
-etc/firmware/a530_pm4.fw:vendor/firmware/a530_pm4.fw
-etc/firmware/a530_zap.b00:vendor/firmware/a530_zap.b00
-etc/firmware/a530_zap.b01:vendor/firmware/a530_zap.b01
-etc/firmware/a530_zap.b02:vendor/firmware/a530_zap.b02
-etc/firmware/a530_zap.elf:vendor/firmware/a530_zap.elf
-etc/firmware/a530_zap.mdt:vendor/firmware/a530_zap.mdt
-etc/firmware/a530v1_pfp.fw:vendor/firmware/a530v1_pfp.fw
-etc/firmware/a530v1_pm4.fw:vendor/firmware/a530v1_pm4.fw
-etc/firmware/a530v2_seq.fw2:vendor/firmware/a530v2_seq.fw2
-etc/firmware/a530v3_gpmu.fw2:vendor/firmware/a530v3_gpmu.fw2
-etc/firmware/a530v3_seq.fw2:vendor/firmware/a530v3_seq.fw2
+vendor/firmware/a530_gpmu.fw2
+vendor/firmware/a530_pfp.fw
+vendor/firmware/a530_pm4.fw
+vendor/firmware/a530_zap.b00
+vendor/firmware/a530_zap.b01
+vendor/firmware/a530_zap.b02
+vendor/firmware/a530_zap.elf
+vendor/firmware/a530_zap.mdt
+vendor/firmware/a530v1_pfp.fw
+vendor/firmware/a530v1_pm4.fw
+vendor/firmware/a530v2_seq.fw2
+vendor/firmware/a530v3_gpmu.fw2
+vendor/firmware/a530v3_seq.fw2
 
 # IMS - from tissot - OPR1.170623.026
 -app/ims/ims.apk|42881dc3adfd5e4f716bdb4d510ca45a0b415b74
@@ -839,7 +838,7 @@ vendor/radio/qcril_database/qcril.db|8405d20c8e1184c79eba1c4f19ecfb92d7529bdf
 
 # Sensors
 bin/sensors.qcom:vendor/bin/sensors.qcom
-etc/sensors/hals.conf:vendor/etc/sensors/hals.conf
+vendor/etc/sensors/hals.conf|bf3677cbfa5ce5735662e8c259cb027969f65c87
 etc/sensors/sensor_def_qcomdev.conf
 vendor/lib64/hw/activity_recognition.msm8996.so
 vendor/lib64/libsensor1.so
